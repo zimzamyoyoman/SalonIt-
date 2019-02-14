@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to bottom, #5ab9ea, #64beea, #6fc4ea, #79c9eb, #84ceeb);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pband {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    text-shadow: 2px 2px rgba(0,0,0,0.4);
+}
+
+.brand {
+    font-family: "Pacifico", sans-serif;
+    font-size: 3.15rem;
+    margin-left: 10px;
+    text-shadow: 2px 2px rgba(0,0,0,0.16);
+
+}
+
+#prebrand {
+    margin-right: 150px;
+}
+
+#postbrand {
+    margin-left: 150px;
+}
+
+#comb {
+    width: 200px;
+}
