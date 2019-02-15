@@ -41,8 +41,11 @@ body {
     line-height: 1;
 }
 
-.svgfeatures {
+#phonelocation {
     width: 260px;
+}
 
+#megaphone {
+    width: 200px;
 }
 
