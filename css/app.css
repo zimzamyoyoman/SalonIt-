@@ -28,7 +28,14 @@ body {
 
 .navbar-nav {
     float: right;
+}
 
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-transform: uppercase;
 }
 
 /* What SalonIt! Does */
