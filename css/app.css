@@ -49,14 +49,14 @@ body {
 
 /* Main Page Body */
 
-/* #mainpagebody {
+#mainpagebody {
     background-image: linear-gradient(to bottom, #5680e9, #5680e9, #5680e9, #5680e9, #5680e9, #4f86eb, #498bec, #4490ed, #3e9bee, #40a6ee, #4bb0ec, #5ab9ea);
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
-} */
+}
 
 #welcome {
     color: white;
