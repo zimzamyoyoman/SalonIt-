@@ -47,6 +47,11 @@ body {
     text-transform: uppercase;
 }
 
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* Main Page Body */
 
 #mainpagebody {
