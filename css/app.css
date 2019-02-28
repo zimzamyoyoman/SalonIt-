@@ -6,6 +6,24 @@ body {
     background-attachment: fixed;
 }
 
+.mainpage {
+    background-image: linear-gradient(to bottom, #5680e9, #4490ed, #3e9fee, #46aded, #5ab9ea);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.whatsalonitdoes {
+    background-image: linear-gradient(to bottom, #5ab9ea, #64beea, #6fc4ea, #79c9eb, #84ceeb);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
 /* SalonIt! Main Page */
 
 /* Navbar */
@@ -36,6 +54,10 @@ body {
     font-weight: 500;
     font-size: 1.05rem;
     text-transform: uppercase;
+}
+
+#spraygun {
+    width: 300px;
 }
 
 /* What SalonIt! Does */
