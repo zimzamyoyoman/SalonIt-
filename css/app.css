@@ -6,15 +6,6 @@ body {
     background-attachment: fixed;
 }
 
-.mainpage {
-    background-image: linear-gradient(to bottom, #5680e9, #4490ed, #3e9fee, #46aded, #5ab9ea);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-}
-
 .whatsalonitdoes {
     background-image: linear-gradient(to bottom, #5ab9ea, #64beea, #6fc4ea, #79c9eb, #84ceeb);
     height: 100%;
@@ -54,6 +45,35 @@ body {
     font-weight: 500;
     font-size: 1.05rem;
     text-transform: uppercase;
+}
+
+/* Main Page Body */
+
+/* #mainpagebody {
+    background-image: linear-gradient(to bottom, #5680e9, #5680e9, #5680e9, #5680e9, #5680e9, #4f86eb, #498bec, #4490ed, #3e9bee, #40a6ee, #4bb0ec, #5ab9ea);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+} */
+
+#welcome {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    margin-left: 130px;
+    text-shadow: 2px 2px rgba(0,0,0,0.4);
+}
+
+#mpbrand {
+    font-family: "Pacifico", sans-serif;
+    font-size: 7rem;
+    margin-left: 10px;
+    text-shadow: 2px 2px rgba(0,0,0,0.16);
+
 }
 
 #spraygun {
