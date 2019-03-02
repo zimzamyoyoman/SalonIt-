@@ -95,6 +95,16 @@ body {
     line-height: 10px;
 }
 
+#appstorelogo {
+    width: 156.82px;
+    height: 55px;
+}
+
+#playstorelogo {
+    width: 156.82px;
+    height: 55px;
+}
+
 /* What SalonIt! Does */
 
 .pbrand {
