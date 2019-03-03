@@ -231,9 +231,19 @@ body {
            width: 440px;
            height: 250px;
        }
-
-
  }
+
+ @media (max-width: 470px) {
+
+    #footercontent {
+        font-size: 3.25rem;
+    }
+
+    #embeddedvideo {
+        width: 400px;
+        height: 226px;
+    }
+}
 
  /* NOTES */
  /* ADD MEDIA QUERIES FOR TEXT ON ALL THE DIFFERENT MOBILE PHONE SIZES */
