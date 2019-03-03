@@ -202,6 +202,10 @@ body {
     border-right: solid 2px white;
 }
 
+.bottomborder {
+    border-bottom: solid 2px white;
+}
+
 @media only screen and (max-width: 320px) {
 
     html { 
