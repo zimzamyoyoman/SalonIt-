@@ -198,7 +198,7 @@
 
     <!-- The SalonIt! Launch Section -->
 
-    <div class="container border">
+    <div class="container">
         <section class="d-flex justify-content-center mr-lg-5 pr-lg-5">
             <div class="container">
                 <div class="row flex-row-reverse">
@@ -219,26 +219,34 @@
             </div>
         </section>
 
-        <div class="container border">
-            <div class="row">
-                <div
-                    class="col-12 col-lg-8 d-flex align-items-center justify-content-center justify-content-lg-start border mt-3 mt-lg-0">
-                    <div class="row d-block">
-                        <div class="col-12">
-                            <iframe id="embeddedvideo" width="690" height="388" src="https://www.youtube.com/embed/U77d9912lrw"
-                                frameborder="0"
+        <div class="container">
+            <!-- MAIN ROW -->
+            <div class="row border border-danger">
+                <!-- COL 1 IN MAIN ROW -->
+                <div class="col-12 col-lg-8 d-flex align-items-center justify-content-center justify-content-lg-start mt-3 mt-lg-0 border border-warning">
+                    <!-- ROW A IN COL 1 -->
+                    <div class="row d-block border border-dark">
+                        <!-- COL 1 IN ROW A -->
+                        <div class="col-12 border">
+                            <iframe id="embeddedvideo" width="690" height="388"
+                                src="https://www.youtube.com/embed/U77d9912lrw" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen class="d-flex p-2"></iframe>
                         </div>
-                    </div>
-                    <!-- <div class="row d-block">
-                            <div class="col-12">
-                                <p> Follow us on: </p>
+
+                        <div class="col-12 border d-flex justify-content-center">
+                            <p> <span id="followuson"> Follow us on: </span>
+                                <img class="socialmediaicons" src="img/instagram.svg">
+                                <img class="socialmediaicons" src="img/twitter.svg">
+                                <img class="socialmediaicons" src="img/facebook.svg">
+                            </p>
                             </div>
-                        </div> -->
+                    </div>
                 </div>
-                <div class="col-lg-4 border">
-                    <img class="d-lg-block d-none id=" scissors" src="img/scissor.png">
+
+                <!-- COL 2 IN MAIN ROW -->
+                <div class="col-lg-4 border border-warning">
+                    <img class="d-lg-block d-none" id="scissors" src="img/scissor.png">
                 </div>
             </div>
         </div>
@@ -246,66 +254,74 @@
 
     <!-- Contact Us Footer -->
 
-    <div class="jumbotron jumbotron-fluid border" id="footer">
+    <div class="jumbotron jumbotron-fluid" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12 mb-5">
                     <p id="footercontent">GET IN TOUCH</p>
                 </div>
             </div>
-            
+
 
             <div class="row">
 
                 <!-- EMAIL HORIZONTAL VIEW -->
-                <div class="col-12 col-md-3 footerdetails d-none d-md-flex align-items-center justify-content-center rightborder">
+                <div
+                    class="col-12 col-md-3 footerdetails d-none d-md-flex align-items-center justify-content-center rightborder">
                     <p>E-Mail: salonit@gmail.com </p>
                 </div>
 
                 <!-- EMAIL VERTICAL VIEW -->
-                <div class="col-12 footerdetails d-flex d-md-none align-items-center justify-content-center bottomborder mb-2">
-                        <p>E-Mail: salonit@gmail.com </p>
+                <div
+                    class="col-12 footerdetails d-flex d-md-none align-items-center justify-content-center bottomborder mb-2">
+                    <p>E-Mail: salonit@gmail.com </p>
                 </div>
 
                 <!-- NUMBER HORIZONTAL VIEW -->
-                <div class="col-12 col-md-3 footerdetails d-none d-md-flex align-items-center justify-content-center rightborder">
+                <div
+                    class="col-12 col-md-3 footerdetails d-none d-md-flex align-items-center justify-content-center rightborder">
                     <p>Mobile: +91 9711288533 <br>
                         WhatsApp: +91 9711288533 </p>
                 </div>
-                
+
                 <!-- NUMBER VERTICAL VIEW -->
-                <div class="col-12 footerdetails d-flex d-md-none align-items-center justify-content-center bottomborder mb-2">
-                        <p>Mobile: +91 9711288533 <br>
-                            WhatsApp: +91 9711288533 </p>
+                <div
+                    class="col-12 footerdetails d-flex d-md-none align-items-center justify-content-center bottomborder mb-2">
+                    <p>Mobile: +91 9711288533 <br>
+                        WhatsApp: +91 9711288533 </p>
                 </div>
 
                 <!-- ADDRESS HORIZONTAL VIEW -->
-                <div class="col-12 col-md-3 footerdetails d-none d-md-flex align-items-center justify-content-center rightborder">
+                <div
+                    class="col-12 col-md-3 footerdetails d-none d-md-flex align-items-center justify-content-center rightborder">
                     <p>Address: Manipal
                         University Jaipur,
                         Dehmi Kalan - 303007</p>
                 </div>
 
                 <!-- ADDRESS VERTICAL VIEW -->
-                <div class="col-12 footerdetails d-flex d-md-none align-items-center justify-content-center bottomborder mb-2">
-                        <p>Address: Manipal
-                            University Jaipur,
-                            Dehmi Kalan - 303007</p>
-                    </div>
+                <div
+                    class="col-12 footerdetails d-flex d-md-none align-items-center justify-content-center bottomborder mb-2">
+                    <p>Address: Manipal
+                        University Jaipur,
+                        Dehmi Kalan - 303007</p>
+                </div>
 
                 <!-- PARTNER HORIZONTAL VIEW -->
-                <div class="col-12 col-md-3 footerdetails d-none d-md-flex align-items-center justify-content-center rightborder">
+                <div
+                    class="col-12 col-md-3 footerdetails d-none d-md-flex align-items-center justify-content-center rightborder">
                     <p>GET YOUR SALON
                         PARTNERED WITH US
                         TODAY</p>
                 </div>
 
-                 <!-- PARTNER VERTICALL VIEW -->
-                 <div class="col-12 footerdetails d-flex d-md-none align-items-center justify-content-center bottomborder mb-2">
-                        <p>GET YOUR SALON
-                            PARTNERED WITH US
-                            TODAY</p>
-                    </div>
+                <!-- PARTNER VERTICALL VIEW -->
+                <div
+                    class="col-12 footerdetails d-flex d-md-none align-items-center justify-content-center bottomborder mb-2">
+                    <p>GET YOUR SALON
+                        PARTNERED WITH US
+                        TODAY</p>
+                </div>
             </div>
 
 
