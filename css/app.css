@@ -176,7 +176,30 @@ body {
 #footer {
     background-color: rgba(0,0,0,0);
     /* background-image: linear-gradient(to bottom, #a3cbec, #aec9ea, #b8c9e8, #c1c8e4, #c1c8e4, #c1c8e4, #c1c8e4, #c1c8e4, ); */
+}
 
+#footercontent {
+    
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 5.25rem;
+    line-height: 10px;
+    text-align: center;
+
+}
+
+.footerdetails {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 15px;
+    text-align: left;
+}
+
+.rightborder {
+    border-right: solid 2px white;
 }
 
 @media only screen and (max-width: 320px) {
