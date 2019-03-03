@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: linear-gradient(to bottom, #5680e9, #5680e9, #5680e9, #5680e9, #5680e9, #4f86eb, #498bec, #4490ed, #3e9bee, #40a6ee, #4bb0ec, #5ab9ea, #5ab9ea, #5ab9ea, #5ab9ea, #5ab9ea, #5ab9ea, #5dbbea, #61bcea, #64beea, #6cc2ea, #74c6ea, #7ccaeb, #84ceeb, #84ceeb, #84ceeb, #84ceeb, #84ceeb, #84ceeb, #8acdec, #90cded, #96cced, #a3cbec, #aec9ea, #b8c9e8, #c1c8e4,#c1c8e4,#c1c8e4,#c1c8e4,#c1c8e4);
     /* background-image: linear-gradient(to bottom, #5680e9, #5680e9, #488ded, #3f98ee, #3ea3ee, #46aded, #4fb3ec, #59b9eb, #64beea, #6cc2ea, #74c6ea, #7ccaeb, #84ceeb, #84ceeb, #84ceeb, #8acdec, #90cded, #96cced, #a3cbec, #aec9ea, #b8c9e8, #c1c8e4); */
@@ -96,6 +100,11 @@ body {
 
 #playstorelogo {
     width: 156.82px;
+    height: 55px;
+}
+
+.appdiv {
+    width: 320px;
     height: 55px;
 }
 
