@@ -159,4 +159,26 @@ body {
     text-shadow: 2px 2px rgba(0,0,0,0.16);
 }
 
+@media only screen and (max-width: 320px) {
 
+    html { 
+       font-size: 91px;
+    }
+ 
+ }
+
+ @media only screen and (max-width: 320px) {
+
+    html { 
+       font-size: 10px;
+    }
+
+    
+ 
+ }
+
+ /* NOTES */
+ /* ADD MEDIA QUERIES FOR TEXT ON ALL THE DIFFERENT MOBILE PHONE SIZES */
+ /* ADD MEDIA QUERIES FOR IMAGES ON ALL THE DIFFERENT MOBILE PHONE SIZES */
+ /* ASK GRAPHICS TEAM TO RESIZE THE LOGO SO THAT NAVBAR CAN BE CENTERED PROPERLY */
+ /* ASK GRAPHICS TEAM TO MAKE SVGS OF ALL THE COMBS and SCISSORS AND STUFF */
