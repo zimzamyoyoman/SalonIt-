@@ -17,6 +17,21 @@
 
 <body>
 
+    <!-- Pre-loader Hijinks -->
+
+    <div id="wrapper">
+            <!-- Preloader -->
+            <div class="spinner-wrapper" id="loading">
+               <div class="spinner"></div>
+               <div class="spinner">
+                  <div class="rect1"></div>
+                  <div class="rect2"></div>
+                  <div class="rect3"></div>
+                  <div class="rect4"></div>
+                  <div class="rect5"></div>
+               </div>
+            </div>
+          
     <!-- SalonIt! MainPage Section -->
     <a name="home"> </a>
     <header id="header">
@@ -52,53 +67,55 @@
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-12 col-lg-6 mb-5 justify-content-center">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3 id="welcome" class="my-0 d-flex justify-content-center"> Welcome to </h3>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12">
-                            <h3 class="my-0 d-flex justify-content-center" id="mpbrand"> SalonIt! </h3>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 d-flex justify-content-center p-0 m-0">
-                            <p class="calltoaction"> Find the salon's nearest to you. </p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 d-flex justify-content-center p-0 m-0">
-                            <p class="calltoaction"> Avail exciting offers and packages. </p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 d-flex justify-content-center p-0 m-0">
-                            <p class="calltoaction"> No more waiting: Break the Line! </p>
-                        </div>
-                    </div>
-
-                    <div class="row d-flex justify-content-center">
-                        
-                        <div class="col-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 id="welcome" class="my-0 d-flex justify-content-center"> Welcome to </h3>
+                            </div>
                         </div>
 
-                        <div class="col-4">
-                            <img id="appstorelogo" src="img/appstore.svg">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="my-0 d-flex justify-content-center" id="mpbrand"> SalonIt! </h3>
+                            </div>
                         </div>
 
-                        <div class="col-4">
-                            <img id="playstorelogo" src="img/playstore.svg">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center p-0 m-0">
+                                <p class="calltoaction"> Find the salon's nearest to you. </p>
+                            </div>
                         </div>
 
-                        <div class="col-2">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center p-0 m-0">
+                                <p class="calltoaction"> Avail exciting offers and packages. </p>
+                            </div>
                         </div>
 
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center p-0 m-0">
+                                <p class="calltoaction"> No more waiting: Break the Line! </p>
+                            </div>
+                        </div>
 
+                        <div class="row d-flex justify-content-center">
+                            
+                            <div class="col-2">
+                            </div>
+
+                            <div class="col-4">
+                                <img id="appstorelogo" src="img/appstore.svg">
+                            </div>
+
+                            <div class="col-4">
+                                <img id="playstorelogo" src="img/playstore.svg">
+                            </div>
+
+                            <div class="col-2">
+                            </div>
+
+
+                        </div>
                     </div>
 
                 </div>
@@ -336,10 +353,10 @@
         </div>
     </div>
 
-
-
-
+    </div>
+    
     <!-- Optional JavaScript -->
+    <script src="js/app.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
