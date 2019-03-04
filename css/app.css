@@ -323,22 +323,63 @@ body {
 
 /* Media Queries */
 
-@media only screen and (max-width: 320px) {
-
-    html { 
-       font-size: 91px;
-    }
- 
- }
-
  @media only screen and (max-width: 320px) {
 
     html { 
        font-size: 10px;
     }
+
+    #salonit-logo {
+        width: 70px;
+    }
+
+    #appstorelogo {
+        width: 90px;
+    }
+
+    #playstorelogo {
+        width: 90px;
+    }
+
+    #phonelocation {
+        width: 130px;
+    }
+
+    #megaphone {
+        width: 130px;
+    }
+
+    #timeismoney {
+        width: 130px;
+    }
+
+    #embeddedvideo {
+        width: 100px;
+        height: 100px;
+    }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 320px) {
+
+    /* #footercontent {
+        font-size: 3.25rem;
+    } */
+
+    #embeddedvideo {
+        width: 256px;
+        height: 145px;
+    }
+
+    .socialmediaicons {
+        width: 15px;
+    }
+
+    #footercontent {
+        font-size: 4.25rem;
+    }
+}
+
+/* @media (max-width: 767.98px) {
 
        #footercontent {
            font-size: 4.25rem;
@@ -348,9 +389,9 @@ body {
            width: 440px;
            height: 250px;
        }
- }
+ } */
 
- @media (max-width: 500px) {
+ /* @media (max-width: 500px) {
 
     #footercontent {
         font-size: 3.25rem;
@@ -360,7 +401,7 @@ body {
         width: 400px;
         height: 226px;
     }
-}
+} */
 
  /* NOTES */
  /* ADD MEDIA QUERIES FOR TEXT ON ALL THE DIFFERENT MOBILE PHONE SIZES */
