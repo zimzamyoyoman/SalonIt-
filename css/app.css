@@ -293,6 +293,10 @@ body {
     /* background-image: linear-gradient(to bottom, #a3cbec, #aec9ea, #b8c9e8, #c1c8e4, #c1c8e4, #c1c8e4, #c1c8e4, #c1c8e4, ); */
 }
 
+.email {
+    color: white;
+}
+
 #footercontent {
     
     color: white;
@@ -431,3 +435,7 @@ body {
  /* ASK GRAPHICS TEAM TO MAKE SVGS OF ALL THE COMBS and SCISSORS AND STUFF */
  /* CORRECTLY CENTER BOTH THE APP AND PLAYSTORE LOGOS */
  /* PROVIDE ATTRIBUTION FOR VECTOR SITE FOR COMB, SCISSORS, AND SPRAYGUN */
+ /* ADD SLIDE FEATURE USING JQUERY */
+ /* ADD FAVICON */
+ /* ADD SMOOTH SCROLLING */
+ /* CENTER THE NAV BAR CONTENTS */
