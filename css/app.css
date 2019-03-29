@@ -286,6 +286,16 @@ body {
     margin-left: 25px;
 }
 
+/* Our Team */
+
+/* .ourteamimg {
+    height: 300px;
+} */
+
+.card {
+    width: 20rem;
+}
+
 /* Footer */
 
 #footer {
